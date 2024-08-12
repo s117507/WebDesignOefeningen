@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+body {
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    color: #91c8ff;
+}
+
+main {
+    grid-area: main;
+    color: #7da9d5;
+}
+
+aside {
+    grid-area: aside;
+    color: #007fff;
+}
+
+footer {
+    grid-area: footer;
+    color: #588ec3;
+}
